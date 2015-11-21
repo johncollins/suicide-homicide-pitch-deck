@@ -13,9 +13,7 @@ knit        : slidify::knit2slides
 
 ## Homicide v Suicide
 
-In many countries, suicide rates are much higher than homicide rates.
-
-However, in other countries the converse is true. This app gives a user a few different ways to view which country shows which pattern and by how much.
+In many countries, suicide rates are much higher than homicide rates. However, in other countries the converse is true. This app gives a user a few different ways to view which country shows which pattern and by how much.
 
 Users select a view using a radio button. Potential views are:
 
@@ -27,13 +25,13 @@ Users select a view using a radio button. Potential views are:
 
 ## View 1
 
-![40](view1.png) 
+!['image missing'](view1.png) 
 
 ---
 
 ## View 2
 
-![](view2.png) 
+!['image missing'](view2.png) 
 
 ---
 
@@ -47,7 +45,9 @@ Users select a view using a radio button. Potential views are:
 
 ***=left
 
-### Pros
+```{r, eval=T, echo=F, results='markup'}
+cat('PROS\n')
+```
 
 * Views not registered when switching
 * Not all countries included
@@ -56,7 +56,9 @@ Users select a view using a radio button. Potential views are:
 
 ***=right
 
-### Cons (or future work)
+```{r, eval=T, echo=F, results='markup'}
+cat('CONS\n')
+```
 
 * Three different views of the same data
 * Easy to understand
